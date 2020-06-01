@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FitnessLog">
+
+    <include
+        android:id="@+id/headerBar"
+        layout="@layout/toolbar">
+    </include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFitnessEntries"
+            android:layout_width="match_parent"
+            android:layout_height="452dp"
+            android:scrollbars="vertical"
+            android:padding="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+
+            <Button
+                android:id="@+id/btnAddFitnessEntry"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/add_note" />
+
+            <Button
+                android:id="@+id/btnAddWorkoutTemplate"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_template" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

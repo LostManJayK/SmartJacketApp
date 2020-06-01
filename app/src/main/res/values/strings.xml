@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmartJacketApp</string>
+    <string name="workout_title">Workout Title</string>
+    <string name="dd_mm_yyyy">dd-mm-yyyy</string>
+    <string name="outdoor_temperature">Outdoor Temperature: 8°C</string>
+    <string name="body_temperature">Body Temperature: 24°C</string>
+    <string name="c">°C</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="date_dd_mm_yyyy">Date: dd-mm-yyyy</string>
+    <string name="paired_bluetooth_jackets">Paired Bluetooth Jackets:</string>
+    <string name="heart_rate_92_bpm">Heart Rate: 64 BPM</string>
+</resources>

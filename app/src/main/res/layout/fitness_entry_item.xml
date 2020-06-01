@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/ivFitnessEntries"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/tvEntry1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-1dp"
+            android:layout_toEndOf="@+id/ivFitnessEntries"
+            android:textSize="20sp"
+            android:text="Line 1"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEntry2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="23dp"
+            android:layout_toEndOf="@+id/ivFitnessEntries"
+            android:textSize="15sp"
+            android:text="Line 2"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
